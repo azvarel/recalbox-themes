@@ -1,0 +1,153 @@
+<!--
+theme name:		Zoidian
+version:		1.0
+Description:	Based on SimpleLight by recalbox community, and Zoid theme by Litzi
+author:			Azvarel
+website:		https://github.com/azvarel
+license:		creative commons CC-BY-NC-SA
+-->
+
+<theme>
+    <formatVersion>4</formatVersion>
+
+<view name="system, basic, detailed">
+
+	<helpsystem name="help">
+		<fontPath>./art/OPENSANS.TTF</fontPath>
+		<fontSize>0.03</fontSize>
+		<pos>0.01 0.96</pos>
+	</helpsystem>
+
+</view>
+
+	<view name="system">
+	
+		<image name="background" extra="true">
+			<pos>0.5 0.5</pos>
+			<origin>0.5 0.5</origin>
+			<size>0 1</size>
+		</image>
+	
+	<image name="gc" extra="true">
+		<pos>0.5 0.19</pos>
+		<origin>0.5 0.5</origin>
+		<maxSize>0.75 0.35</maxSize>
+	</image>
+	
+	<image name="footer" extra="true">
+		<path>./art/bg.jpg</path>
+		<color>f3f3f3dd</color>
+		<pos>0 1</pos>
+		<origin>0 1</origin>
+		<size>1 0.05</size>
+	</image>
+	
+	</view>
+	
+    <view name="basic, detailed">
+		
+		<text name="md_description">
+			<color>393a3b</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+		</text>
+		
+		
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite">
+			<color>393a3b</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.026</fontSize>
+			<size>0.111 0.015</size>
+			<alignment>left</alignment>
+		</text>
+		
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_players, md_playcount, md_favorite">
+			<color>393a3b</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.026</fontSize>
+			<size>0.14 0.04</size>
+		</text>
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>393a3b</color>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/OPENSANS-LIGHT.TTF</fontPath>
+			<fontSize>0.026</fontSize>
+			<size>0 0.04</size>
+		</datetime>
+		
+		<image name="header" extra="true">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.1</size>
+		</image>
+
+		<image name="background">
+			<path>./art/bg.jpg</path>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+		</image>
+		
+		<image name="footer" extra="true">
+		<path>./art/bg.jpg</path>
+		<color>f3f3f3</color>
+		<pos>0 1</pos>
+		<origin>0 1</origin>
+		<size>1 0.05</size>
+		</image>
+		
+		<image name="logo-h1" extra="true">
+			<path>./art/bg.jpg</path>
+			<color>f3f3f3</color>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 0.1</size>
+		</image>
+		
+		<image name="logo-h2" extra="true">
+			<path>./art/hl.svg</path>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<maxSize>1 0.1</maxSize>
+		</image>
+		
+		<image name="logo-h3" extra="true">
+			<path>./art/hr.svg</path>
+			<pos>1 0</pos>
+			<origin>1 0</origin>
+			<maxSize>1 0.1</maxSize>
+		</image>
+	
+		<image name="logo">
+			<pos>0.5 0.05</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>1 0.09</maxSize>
+		</image>
+	
+		<textlist name="gamelist">
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/OPENSANS.TTF</fontPath>
+			<fontSize>0.03</fontSize>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+
+		
+	</view>
+
+	<view name="basic">
+	
+		<textlist name="gamelist">
+			<pos>0.005 0.105</pos>
+			<size>0.99 0.84</size>
+			<alignment>center</alignment>
+		</textlist>
+	
+	</view>
+
+	<view name="detailed"> 
+	</view>
+</theme>
